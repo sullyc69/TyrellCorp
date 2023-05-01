@@ -1,0 +1,12 @@
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\Business.deps.json
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\Business.dll
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\Business.pdb
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.dll
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\refint\Business.dll
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.pdb
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\ref\Business.dll

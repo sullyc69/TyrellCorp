@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iq3aN/gw9mYhykts07KRqiAqWTHlHl59ICvB7m2tOWMq9l9pNFXhFbmLc2+lwQpXCw/Oy4qTSfNs1oyijD6hkA==",
+  "dgSpecHash": "sAoclSdlhuP+k0QIjp5Lq8hPZeIKM0eOlh4JshrVTnTbbu8cufizl5v7AUNVwygRMKu3roA1Vg9ABREvaNICnw==",
   "success": true,
-  "projectFilePath": "C:\\TyrellCorp\\TyrellCorp\\Models\\Models.csproj",
+  "projectFilePath": "C:\\TyrellCorp\\TyrellCorp\\Models\\DTO.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

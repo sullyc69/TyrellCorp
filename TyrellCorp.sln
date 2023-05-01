@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TyrellCorp", "TyrellCorp\TyrellCorp.csproj", "{09126EBF-E8A4-4514-892C-781E1DEEA50A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TyrellCorp", "TyrellCorp\TyrellCorp.csproj", "{09126EBF-E8A4-4514-892C-781E1DEEA50A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "Business\Business.csproj", "{496F9342-719C-4DD3-A817-F6D0EE3F0006}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Business", "Business\Business.csproj", "{496F9342-719C-4DD3-A817-F6D0EE3F0006}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{A961A8AF-8E4B-4148-8398-14E2463F0644}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "Data\Data.csproj", "{A961A8AF-8E4B-4148-8398-14E2463F0644}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalServices", "ExternalServices\ExternalServices.csproj", "{A7509C47-FE02-41A7-819A-FDC6FD446AA0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalServices", "ExternalServices\ExternalServices.csproj", "{A7509C47-FE02-41A7-819A-FDC6FD446AA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{FDEB3D80-5918-4BBC-ACBF-9A33A7938D71}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tests", "Tests\Tests.csproj", "{FDEB3D80-5918-4BBC-ACBF-9A33A7938D71}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{DCEF5F07-315B-4A51-AB20-5C37A2F88F56}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DTO", "Models\DTO.csproj", "{DCEF5F07-315B-4A51-AB20-5C37A2F88F56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

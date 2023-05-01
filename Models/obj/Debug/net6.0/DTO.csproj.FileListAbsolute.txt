@@ -1,0 +1,12 @@
+C:\TyrellCorp\TyrellCorp\Models\bin\Debug\net6.0\DTO.deps.json
+C:\TyrellCorp\TyrellCorp\Models\bin\Debug\net6.0\DTO.dll
+C:\TyrellCorp\TyrellCorp\Models\bin\Debug\net6.0\DTO.pdb
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.csproj.AssemblyReference.cache
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.GeneratedMSBuildEditorConfig.editorconfig
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.AssemblyInfoInputs.cache
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.AssemblyInfo.cs
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.csproj.CoreCompileInputs.cache
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.dll
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\refint\DTO.dll
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\DTO.pdb
+C:\TyrellCorp\TyrellCorp\Models\obj\Debug\net6.0\ref\DTO.dll

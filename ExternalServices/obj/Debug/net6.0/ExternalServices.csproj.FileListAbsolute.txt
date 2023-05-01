@@ -1,0 +1,12 @@
+C:\TyrellCorp\TyrellCorp\ExternalServices\bin\Debug\net6.0\ExternalServices.deps.json
+C:\TyrellCorp\TyrellCorp\ExternalServices\bin\Debug\net6.0\ExternalServices.dll
+C:\TyrellCorp\TyrellCorp\ExternalServices\bin\Debug\net6.0\ExternalServices.pdb
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.csproj.AssemblyReference.cache
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.GeneratedMSBuildEditorConfig.editorconfig
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.AssemblyInfoInputs.cache
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.AssemblyInfo.cs
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.csproj.CoreCompileInputs.cache
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.dll
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\refint\ExternalServices.dll
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ExternalServices.pdb
+C:\TyrellCorp\TyrellCorp\ExternalServices\obj\Debug\net6.0\ref\ExternalServices.dll

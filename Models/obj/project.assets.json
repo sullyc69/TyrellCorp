@@ -14,9 +14,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\TyrellCorp\\TyrellCorp\\Models\\Models.csproj",
-      "projectName": "Models",
-      "projectPath": "C:\\TyrellCorp\\TyrellCorp\\Models\\Models.csproj",
+      "projectUniqueName": "C:\\TyrellCorp\\TyrellCorp\\Models\\DTO.csproj",
+      "projectName": "DTO",
+      "projectPath": "C:\\TyrellCorp\\TyrellCorp\\Models\\DTO.csproj",
       "packagesPath": "C:\\Users\\coryh\\.nuget\\packages\\",
       "outputPath": "C:\\TyrellCorp\\TyrellCorp\\Models\\obj\\",
       "projectStyle": "PackageReference",
