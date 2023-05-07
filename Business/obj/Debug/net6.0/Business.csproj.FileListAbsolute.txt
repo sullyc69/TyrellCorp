@@ -10,3 +10,10 @@ C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.dll
 C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\refint\Business.dll
 C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.pdb
 C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\ref\Business.dll
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\Data.dll
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\DTO.dll
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\ExternalServices.dll
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\Data.pdb
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\ExternalServices.pdb
+C:\TyrellCorp\TyrellCorp\Business\bin\Debug\net6.0\DTO.pdb
+C:\TyrellCorp\TyrellCorp\Business\obj\Debug\net6.0\Business.csproj.CopyComplete

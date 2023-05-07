@@ -1,10 +1,22 @@
+
+using TyrellCorp;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+
+//Use Azure Configurations
+string connectionString = builder.Configuration.GetConnectionString("AppConfig");
+
+// Load configuration from Azure App Configuration
+builder.Configuration.AddAzureAppConfiguration(connectionString);
+
 
 builder.Services.AddControllersWithViews();
 
 var app = builder.Build();
+
+
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
@@ -22,6 +34,9 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
 
-app.MapFallbackToFile("index.html"); ;
+app.MapFallbackToFile("index.html");
+
+
+
 
 app.Run();
