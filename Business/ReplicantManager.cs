@@ -26,7 +26,9 @@ namespace Business
             {
                 var repDTO = new ReplicantDTO();
 
-                repDTO.Adapt(r);
+                repDTO.Id = r.Id;
+                repDTO.InceptDate = r.InceptDate;
+                repDTO.Description = r.Name;
 
                 replicantDTOList.Add(repDTO);
 

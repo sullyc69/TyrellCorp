@@ -1,5 +1,10 @@
 
+using Business;
+using Business.Interfaces;
+using Data;
+using Data.Interfaces;
 using TyrellCorp;
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +17,8 @@ builder.Configuration.AddAzureAppConfiguration(connectionString);
 
 
 builder.Services.AddControllersWithViews();
-
+builder.Services.AddScoped<IReplicantManager, ReplicantManager>();
+builder.Services.AddScoped<IReplicants, Replicants>();
 var app = builder.Build();
 
 
@@ -34,7 +40,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller}/{action=Index}/{id?}");
 
-app.MapFallbackToFile("index.html");
+//app.MapFallbackToFile("index.html");
 
 
 

@@ -15,9 +15,9 @@ namespace Data.Data
     public class TyrellCorporationContext : DbContext
     {
         
-        public DbSet<Factory> Factories { get; set; } = null!;
-        public DbSet<Function> Functions { get; set; } = null!;
-        public DbSet<Replicant> Replicants { get; } = null!;
+        public DbSet<Factory> Factories { get; set; }
+        public DbSet<Function> Functions { get; set; }
+        public DbSet<Replicant> Replicants { get; set; } 
 
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)

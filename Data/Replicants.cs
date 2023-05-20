@@ -15,11 +15,22 @@ namespace Data
         public async Task<List<Replicant>> GetReplicantsAsync()
         {
             var replicants = new List<Replicant>();
-            using (var db = new TyrellCorporationContext())
-            {
-                replicants = await (from r in db.Replicants orderby r.InceptDate select r).ToListAsync();
 
+            try
+            {
+                using (var db = new TyrellCorporationContext())
+                {
+                    replicants = await (from r in db.Replicants orderby r.InceptDate select r).ToListAsync();
+
+                }
+
+            } 
+            catch (Exception ex)
+            {
+               
+               var msg =  ex.Message;
             }
+           
             return replicants;
         }
     }

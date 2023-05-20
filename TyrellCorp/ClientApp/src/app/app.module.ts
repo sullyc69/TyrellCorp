@@ -8,6 +8,9 @@ import { AppComponent } from './app.component';
 import { ReplicantsComponent } from './replicants/replicants.component';
 //import { NavMenuComponent } from './nav-menu/nav-menu.component';
 import { HomeComponent } from './home/home.component';
+import { ReplicantListComponent } from './replicant-list/replicant-list.component';
+import { FounderComponent } from './founder/founder.component';
+import { TeamComponent } from './team/team.component';
 //import { CounterComponent } from './counter/counter.component';
 //import { FetchDataComponent } from './fetch-data/fetch-data.component';
 
@@ -18,7 +21,10 @@ import { HomeComponent } from './home/home.component';
     //HomeComponent,
     //CounterComponent,
     //FetchDataComponent
-    ReplicantsComponent
+    ReplicantsComponent,
+    ReplicantListComponent,
+    FounderComponent,
+    TeamComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),

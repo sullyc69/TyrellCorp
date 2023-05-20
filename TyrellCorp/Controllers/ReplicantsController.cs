@@ -1,85 +1,29 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Business.Interfaces;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Models.Models;
 
 namespace TyrellCorp.Controllers
 {
-    public class ReplicantsController : Controller
+    [Controller]
+    [Route("[controller]")]
+    public class ReplicantsController : ControllerBase
     {
-
-
-        // GET: ReplicantsController
-        public ActionResult Index()
+        IReplicantManager _replicantManager;
+        public ReplicantsController(IReplicantManager replicantManager) 
+        { 
+        
+         _replicantManager = replicantManager;
+        
+        }
+        
+        [HttpGet]
+        public async Task<IEnumerable<ReplicantDTO>> Get()
         {
-            return View();
+            return await _replicantManager.GetReplicantDTOsAsync();
         }
 
-        // GET: ReplicantsController/Details/5
-        public ActionResult Details(int id)
-        {
-            return View();
-        }
 
-        // GET: ReplicantsController/Create
-        public ActionResult Create()
-        {
-            return View();
-        }
 
-        // POST: ReplicantsController/Create
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ReplicantsController/Edit/5
-        public ActionResult Edit(int id)
-        {
-            return View();
-        }
-
-        // POST: ReplicantsController/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Edit(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
-
-        // GET: ReplicantsController/Delete/5
-        public ActionResult Delete(int id)
-        {
-            return View();
-        }
-
-        // POST: ReplicantsController/Delete/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Delete(int id, IFormCollection collection)
-        {
-            try
-            {
-                return RedirectToAction(nameof(Index));
-            }
-            catch
-            {
-                return View();
-            }
-        }
     }
 }
